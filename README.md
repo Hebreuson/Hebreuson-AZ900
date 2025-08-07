@@ -17,3 +17,9 @@ Paas tendo uma gestão intermediaria;
 SaaS tendo a menor gestão;
 
 Lembrando que a gestão se refere sempre ao Cliente, e os serviços da microsoft podem ser adicionados ou não, sendo uma escolha do TI.
+
+Na primeira aula do modolo 2 do curso foi apresentado a aquitetura da microsoft Azure.
+Na qual é formada por diversas regiões de disponibilidade, contendo grupos de gerenciamento, assinaturas, grupos de recursos e recursos.
+Sendo primordial entender que cada região tem sua disponibilidade par, quando uma região ococorre um desastre recovery, sempre tera outra região para suprir a necessidade da demanda afetada.
+Importante lembrar que se a impresa não adquire este recurso de disponibilidade, ela fica refém de ter que esperar o sistema retornar a funcionar, impactando a redundancia do projeto. 
+É muito importante salientar que uma conta pode ter diversas assinaturas e recursos, mas não podemos ter assinaturas em diversas contas diferentes, todas devem responder por apenas uma conta gerenciada da microsoft Azure. 
