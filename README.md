@@ -35,3 +35,15 @@ De um modo geral a Microsoft Azure faz um gerenciamento em DNS, dando um nome pa
 
 Hoje o dia foi muito produtivo ate o momento, realizei uma criação de uma maquina virtual no Azure, realizei uma criação de recursos e de uma vnet, verifiquei o que é uma area de trabalho virtual Azure e funções.
 Nas proximas aulas irei aprender sobre armazenamento. 
+
+Hoje aprendi sobre Armazenamento Azure, as contas de armazenamento devem ter um nome exclusivo.
+e devem ter opções de redundacias.
+
+LRS: ARMAZENAMENTO COM REDUNNCIA: DATA CENTER INDIVUDUAL 11 noves (caso o datacenter caia o sistema é perdido)
+
+ZRS: ARMAZENAMENTO COM REDUNDANCIA DE ZONA 12 noves (tres zonas de disponibilidade na região primaria) (caso o datacenter caia ele tera mais 2 copias para subir o sistema, só fica sem se a região inteira cair. 
+
+GRS: ARMAZENAMENTO COM REDUNCIA GEOGRAFICA 16 noves (datacenter unico primairo e regiao secundaria) (caso o servidor caia na região primaira ele tera um par na regiao secundaria)
+
+GZRS: ARMAZENAMENTO COM REDUNDANCIA DE ZONA GEOGRAFICA 16 noves (tres zonas de disponibilidade na regiao primaria e um unico datacenter na regiao secundaria) (caso o data center caia na região ele tera uma copia em outra região par)
+
